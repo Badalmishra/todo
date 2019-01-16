@@ -1,0 +1,68 @@
+.app-container{
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid grey;
+}
+.app-container .title{
+  width: 100%;
+  background: black;
+  color: darkgrey;
+  text-align: center;
+}
+h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+input{
+  width: 100%;
+  font-size: 32px;
+  padding: 1% 3%;
+  box-sizing: border-box;
+  box-shadow: inset 2px 2px 5px grey;
+}
+.todoHolder{
+  width: 100%;
+}
+p{
+  padding-left: 4%;
+  font-style:italic;
+}
+tr:nth-child(odd) {
+  background: rgba(0, 220, 0, 0.3);
+}
+tr:nth-child(even) {
+  background: rgba(0, 0, 220, 0.3);
+}
+tr:hover{
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  color: white;
+}
+table{
+  border-collapse: collapse;
+
+}
+td button{
+  background: unset;
+  width: 5rem;
+  height: 4rem;
+  font-size: 40px;
+  background: rgba(225, 0, 0, 0.8);
+  border: unset;
+  cursor: pointer;
+}
+.formButton{
+  width: 5rem;
+}
+.remButton{
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.disabled{
+  background: grey !important;
+  box-shadow: inset 5px 5px 15px darkgrey ;
+}
+.hideForm{
+  display: none;
+}
